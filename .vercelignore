@@ -1,0 +1,14 @@
+.git
+node_modules
+.next
+test-results
+playwright-report
+docs/screenshots
+docs/verification
+.pnpm-store
+*.log
+.env*
+*.pem
+*.key
+*.p12
+*.pfx

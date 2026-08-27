@@ -1,0 +1,9 @@
+node_modules
+.next
+.vercel
+.pnpm-store
+pnpm-lock.yaml
+docs/screenshots
+docs/verification
+public/icons
+*.tsbuildinfo
