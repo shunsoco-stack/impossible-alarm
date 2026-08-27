@@ -1,0 +1,52 @@
+{
+  "checkedOn": "2026-08-27",
+  "productionUrl": "https://impossible-alarm.vercel.app/",
+  "browser": "Codex in-app browser",
+  "method": "Visible UI actions and read-only DOM checks; no injected app state",
+  "viewportTests": [
+    "320x812",
+    "390x844",
+    "1440x1040"
+  ],
+  "localChecksPassed": [
+    "Scheduled alarm fired at 19:05 local time",
+    "Preview controls, incorrect answers, Enter submission, normal completion",
+    "Five-minute snooze shows 05:00 and preserves solved count",
+    "Reload restores the current question and snooze state",
+    "Escape closes the dialog; light and dark modes render",
+    "Cached page and history load with the local server stopped"
+  ],
+  "productionChecksPassed": [
+    "Unauthenticated application and public assets respond HTTP 200",
+    "Hell demo: answered all 100 questions through the UI",
+    "Reload after 35 answers restores the same question and solved count",
+    "Reload shows the explicit audio-enable control",
+    "After answer 99, fake-error view appears without losing progress",
+    "Fake-error view automatically resumes to question 100",
+    "Answer 100 completes the alarm and creates a 100/100 demo history entry",
+    "Demo completion is excluded from real wake-up statistics",
+    "Browser console contains no error or warning records"
+  ],
+  "screenshotOrigin": "https://impossible-alarm.vercel.app/",
+  "screenshots": [
+    "docs/screenshots/01-clock.jpg",
+    "docs/screenshots/02-difficulty.jpg",
+    "docs/screenshots/03-ringing.jpg",
+    "docs/screenshots/04-challenge.jpg",
+    "docs/screenshots/05-glitch.jpg"
+  ],
+  "screenshotsNote": "Screens 3-5 use the app's visible demo mode. Screen 5 followed 99 actual UI answers.",
+  "unitTestsPassed": 223,
+  "analytics": {
+    "pageviews": "Enabled; Vercel aggregate API confirmed 1 visitor and 2 pageviews",
+    "customEvents": "Four events implemented; aggregation unavailable on Hobby"
+  },
+  "notVerified": [
+    "Notification delivery with OS/browser permission granted on physical devices",
+    "Native share-sheet delivery to an external recipient",
+    "PWA installation on each supported OS",
+    "Alarm firing under each device's sleep and power-saving settings",
+    "Formal accessibility certification"
+  ],
+  "alarmReliability": "Not guaranteed. Keep the browser or PWA open and use a device-native alarm for important mornings."
+}

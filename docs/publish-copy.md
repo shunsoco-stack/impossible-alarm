@@ -1,15 +1,15 @@
 # 起きられない目覚まし：掲載用コピー
 
-掲載文の下書きです。公開URLと動作確認の完了後に使用してください。現時点では投稿・掲載を実行していません。
+公開URLと動作確認が完了した掲載用の下書きです。投稿・掲載は実行していません。
 
 ## 基本情報
 
 - アプリ名：起きられない目覚まし
 - リポジトリ名：`impossible-alarm`
 - URL SLUG：`impossible-alarm`
-- 公開予定URL：https://impossible-alarm.vercel.app
-- GitHub予定URL：https://github.com/shunsoco-stack/impossible-alarm
-- 公開URL確認：未確認（公開作業後に更新）
+- 公開URL：https://impossible-alarm.vercel.app
+- GitHub URL：https://github.com/shunsoco-stack/impossible-alarm
+- 公開URL確認：2026年8月27日、認証なしHTTP 200・GitHub公開状態を確認済み
 - Tsukutta掲載状況：**未掲載**
 
 ## ポートフォリオ文
@@ -70,15 +70,15 @@ Next.js・TypeScript・Tailwind CSSで実装し、音はWeb Audio APIでオリ�
 
 ※Webアプリなので、端末のスリープやタブ終了などで鳴らない場合があります。ブラウザやPWAを開いた状態での利用を推奨し、標準アラームとの併用を案内しています。
 
-アプリ（公開確認後に掲載）：https://impossible-alarm.vercel.app
-コード（公開確認後に掲載）：https://github.com/shunsoco-stack/impossible-alarm
+アプリ：https://impossible-alarm.vercel.app
+コード：https://github.com/shunsoco-stack/impossible-alarm
 
 #個人開発 #Nextjs #TypeScript #PWA #ジョークアプリ
 
 ## 掲載前チェック
 
-- [ ] 公開アプリとGitHubのURLを確認する
-- [ ] lint・typecheck・test・test:secrets・buildの最終結果を確認する
-- [ ] 公開アプリからスクリーンショット5枚を取得しREADMEへ埋め込む
-- [ ] Webアラームの制約・Analyticsのプラン制約が残っていることを確認する
+- [x] 公開アプリとGitHubのURLを確認する
+- [x] lint・typecheck・test・test:secrets・buildの最終結果を確認する（223テスト成功）
+- [x] 公開アプリからスクリーンショット5枚を取得しREADMEへ埋め込む
+- [x] Webアラームの制約・Analyticsのプラン制約が残っていることを確認する
 - [ ] 投稿後にTsukuttaの掲載URL・掲載状況を更新する（現状：未掲載）
