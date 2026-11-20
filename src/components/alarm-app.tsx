@@ -382,6 +382,7 @@ export default function AlarmApp() {
           <footer className="site-footer">
             <span>GOOD NIGHT. GOOD LUCK.</span>
             <p>眠るのはあなた。解くのもあなた。</p>
+            <a href="/privacy">プライバシーポリシー</a>
             <a
               href="https://github.com/shunsoco-stack/impossible-alarm"
               target="_blank"
